@@ -295,7 +295,6 @@ ol {
 
 .content__video-card-title {
   width: 196px;
-  min-width: 0; 
   margin-bottom: 6px;
   overflow: hidden;
   font-family: Oswald;
