@@ -23,4 +23,4 @@
 
 ## 🔗 Репозиторий
 
-[Ссылка на проект](https://github.com/KirillZemko/posmotri-v-okno-fd)
+[Ссылка на проект](https://github.com/kirillzemko/posmotri-v-okno-fd)
