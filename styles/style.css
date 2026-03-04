@@ -55,7 +55,6 @@ ol {
 
 .content {
   display: flex;
-  justify-content: center;
   align-items: flex-end;
   gap: 30px;
   width: 1140px;
@@ -63,8 +62,8 @@ ol {
 
 .result__video-container {
   position: relative;
-  min-width: 711px;
-  min-height: 386px;
+  width: 711px;
+  height: 386px;
   margin-bottom: 16px;
   object-fit: contain;
 }
@@ -73,6 +72,7 @@ ol {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center;
 }
 
 .search-form {
@@ -92,20 +92,16 @@ ol {
   border-bottom: 1px solid #fff;
   padding: 4px 0;
   color: #fff;
-  font-family: inherit;
+  background-color: transparent;
+  Font-family: 'Fira Sans Condensed', sans-serif;
+  line-height: 100%;
+  font-weight: 400;
   font-size: 18px;
   line-height: 100%;
-  background-color: transparent;
 }
 
 .search-form__textfield::placeholder {
   color: rgb(255 255 255 / 0.7);
-  font-family: Fira Sans Condensed;
-  font-weight: 400;
-  font-size: 18px;
-  font-style: Regular;
-  line-height: 100%;
-  letter-spacing: 0%;
 }
 
 .search-form__textfield:focus {
@@ -175,12 +171,11 @@ ol {
   border: 1px solid #fff;
   color: #fff;
   
-  font-family: Fira Sans Condensed;
+  font-family: 'Fira Sans Condensed', sans-serif;
   font-weight: 700;
   font-size: 18px;
   font-style: Bold;
   line-height: 100%;
-  letter-spacing: 0%;
   text-align: center;
   background-color: transparent;
   cursor: pointer;
@@ -217,12 +212,10 @@ ol {
 
 .title {
   color: #fff;
-  font-family: Oswald, sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-weight: 700;
   font-size: 75px;
-  font-style: Bold;
   line-height: 94%;
-  letter-spacing: 0%;
   text-transform: uppercase;
 }
 
@@ -235,6 +228,7 @@ ol {
   display: flex;
   flex-direction: column;
   gap: 30px;
+  width: 399px;
   height: 298px;
   margin-top: 26px;
   overflow-y: scroll;
@@ -255,7 +249,6 @@ ol {
   width: 100%;
   color: #fff;
   text-decoration: none;
-  cursor: pointer;
 }
 
 .content__card-link:hover {
@@ -297,11 +290,10 @@ ol {
   width: 196px;
   margin-bottom: 6px;
   overflow: hidden;
-  font-family: Oswald;
+  font-family: 'Oswald', sans-serif;
   font-weight: 700;
   font-size: 30px;
   line-height: 100%;
-  letter-spacing: 0%;
   text-transform: uppercase;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -314,9 +306,7 @@ ol {
   font-family: Fira Sans Condensed;
   font-weight: 400;
   font-size: 18px;
-  font-style: Regular;
   line-height: 16.2px;
-  letter-spacing: 0%;
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
 }
