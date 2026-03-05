@@ -173,7 +173,6 @@ ol {
   font-family: 'Fira Sans Condensed', sans-serif;
   font-weight: 700;
   font-size: 18px;
-  font-style: Bold;
   line-height: 100%;
   text-align: center;
   background-color: transparent;
@@ -302,7 +301,7 @@ ol {
   display: -webkit-box;
   overflow: hidden;
 
-  font-family: Fira Sans Condensed;
+  font-family: 'Fira Sans Condensed', sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 16.2px;
